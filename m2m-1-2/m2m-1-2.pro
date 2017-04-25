@@ -7,7 +7,7 @@ SOURCES += \
     m2m-1-2.cpp \
     ../util.cpp
 
-HEADERS += \
-    ../util.h
-
 QMAKE_CXXFLAGS += -O0
+
+INCLUDEPATH += \
+    ..
